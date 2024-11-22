@@ -30,6 +30,8 @@ const CONFIG = {
   HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
+  HEXO_POST_LAST_MODIFIED: false, // 是否显示文章最后修改时间
+
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
   HEXO_ARTICLE_RECOMMEND: true, // 文章关联推荐

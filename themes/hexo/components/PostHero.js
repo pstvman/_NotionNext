@@ -70,9 +70,11 @@ export default function PostHero({ post, siteInfo }) {
                   </Link>
                 </>
               )}
-              <div className='pl-1 mr-2'>
-                {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay}
-              </div>
+              {siteConfig('HEXO_POST_LAST_MODIFIED') && (
+                <div className='pl-1 mr-2'>
+                  {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay}
+                </div>
+              )}
             </div>
 
             {JSON.parse(siteConfig('ANALYTICS_BUSUANZI_ENABLE')) && (
